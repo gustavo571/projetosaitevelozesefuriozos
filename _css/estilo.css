@@ -127,7 +127,7 @@ li a {
   text-align: center;
 }
 li a:hover {
-    background: #CCC;
+    background: #0fbcf4;
     color: #000;
     border-color: #000;
 
@@ -135,5 +135,5 @@ li a:hover {
 li {
     list-style: none;
     margin: 10px;
-    
+
   }
