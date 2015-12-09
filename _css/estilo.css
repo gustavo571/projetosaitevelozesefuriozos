@@ -4,10 +4,15 @@
   @import url(https://fonts.googleapis.com/css?family=Akronim);
   @import url(https://fonts.googleapis.com/css?family=Pacifico);
   body {
-    background-color: #00FFFF;
+    background-color:#91ecff
   }
 
   h1#principalmenu{
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 60px;
+  }
+  h1#principaltitulo{
     font-family: 'Lobster', cursive;
     color: red;
     font-size: 60px;
@@ -20,7 +25,7 @@
     font-family: Verdana, Geneva, sans-serif;
   }
   h2#subtitulo{
-    font-family: 'Pacifico', cursive;
+    font-family: 'DejaVu Sans', cursive;
   }
   h1#menu{
     font-family: 'Lobster', cursive;
@@ -47,13 +52,14 @@
     text-indent: 90px;
     color: rgba(84,80,154,0.7);
     font-size: 120%;
+    color: purple;
   }
   div#interface{
     width: 900px;
     background-color: rgba(255, 255, 255, 0.8);
     margin: -23px auto 0px auto;
     padding: 20px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6 );
+    box-shadow: 1px 1px 5px rgba(225, 225, 255, 0.6 );
 }
 
   p:hover {
@@ -88,15 +94,14 @@ section#principal {
   display: block;
   width: 500px;
   float: left;
-  background-color: #CCFFCC;
+  background-color: #CCFFCC
 
 }
-
 aside#lateral {
   display: block;
-  width: 350px;
+  width: 360px;
   float: right;
-  background-color: #CCFFCC;
+  background-color: #91ecff
   margin: 20px;
 }
 
@@ -135,5 +140,4 @@ li a:hover {
 li {
     list-style: none;
     margin: 10px;
-
   }
